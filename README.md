@@ -1,6 +1,14 @@
 # proyecto2023
 Estructura de Proyecto Lab de Compu II - 2023
 
+Preguntados!
+
+Autores: Arcando Cenicen Juan Agustin y Baudino Felipe
+
+Contenido de la pagina: Preguntados con opciones y diversas fotos e opciones para que el usuario interactue.
+
+Tecnologias utilizadas: GitHub, Comandos de Windows, GitBash y Aula Virtual de la Materia.
+
 ## Requisitos del Primer Parcial
 
 ### Sobre el Repositorio
