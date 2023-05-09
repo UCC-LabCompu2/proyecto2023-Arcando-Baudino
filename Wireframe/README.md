@@ -13,7 +13,9 @@ Estructura de Proyecto Lab de Compu II - 2023
 - Opciones para que el usuario interactue.
 - Preguntas dependientes de la categoria.
 
-### Tecnologias utilizadas: 
+### Tecnologias utilizadas:
+- HTML.
+- CSS.
 - GitHub. 
 - Comandos de Windows. 
 - GitBash. 
