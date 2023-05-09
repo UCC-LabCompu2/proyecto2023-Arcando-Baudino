@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>proyecto.ing</title>
+	<title>proyecto.dep</title>
 </head>
 <body>
-<body style ='background-color: #de0994'>
-	<a href="proyecto2.html"><button>volver</button></a>
-	<br>
-<h1>Has elegido ingenieria!!</h1>
-	<div class="container">
-		<div class="pregunta-container">
-			<h1 class="titulo">Cuestionario de Ingenieria</h1>
-			<img src="C:\Users\Juan Arcando\OneDrive\Escritorio\LabCompu II-2023\ProyectoLabII-Arcando-Baudino\Imagenes\Ingenieria.png">
-			<br>
-			<button type="button" id="iniciar" onclick="empezarCuestionario()">Iniciar</button>
-			</form>
-		</div>
-		<div class="pregunta-container hidden" id="pregunta-container">
-			<h2 id="numero-pregunta" class="subtitulo"></h2>
-			<h3 id="pregunta" class="pregunta"></h3>
-			<div class="opciones">
-				<button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
-				<button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
-				<button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
-				<button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
-			</div>
-		</div>
-		<div class="resultado-container hidden" id="resultado-container">
-			<h2 class="subtitulo" id="resultado"></h2>
-			<button type="button" id="reiniciar" onclick="reiniciarCuestionario()">Reiniciar</button>
-		</div>
-	</div>
-	<script src="script.js"></script>
+<a href="proyecto2.html"><button>volver</button></a>
+<br>
+<h1>Has elegido Ingenieria!!</h1>
 
+<form>
+    <h2>Pregunta 1:</h2>
+    <p>¿Qué es un algoritmo?</p>
+    <button class="button" type="button" name="pregunta1" value="a">Un conjunto de instrucciones ordenadas para resolver un problema</button>
+    <button class="button" type="button" name="pregunta1" value="b"> Una red de computadoras</button>
+    <button class="button" type="button" name="pregunta1" value="c"> Un programa de computadora</button>
+    <button class="button" type="button" name="pregunta1" value="d">Un dispositivo de entrada</button>
+
+    <h2>Pregunta 2:</h2>
+    <p>¿Qué es un lenguaje de programación?</p>
+    <button class="button" type="button" name="pregunta2" value="a">Un conjunto de reglas para escribir códigos de programación</button>
+    <button class="button" type="button" name="pregunta2" value="b">Un programa de computadora para escribir documentos</button>
+    <button class="button" type="button" name="pregunta2" value="c">Un dispositivo de entrada</button>
+    <button class="button" type="button" name="pregunta2" value="d">Una base de datos</button>
+
+    <h2>Pregunta 3:</h2>
+    <p>¿Cuál es el lenguaje de programación más utilizado en la actualidad?</p>
+    <button class="button" type="button" name="pregunta3" value="a"> Java</button>
+    <button class="button" type="button" name="pregunta3" value="b">c++</button>
+    <button class="button" type="button" name="pregunta3" value="c">Python</button>
+    <button class="button" type="button" name="pregunta3" value="d">JavaScript</button>
+
+    <h2>Pregunta 4:</h2>
+    <p>¿Qué es un IDE?</p>
+    <button class="button" type="button" name="pregunta4" value="a">Un entorno de desarrollo integrado</button>
+    <button class="button" type="button" name="pregunta4" value="b">Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta4" value="c">Un conjunto de códigos de programación</button>
+    <button class="button" type="button" name="pregunta4" value="d"> Un programa de computadora para editar imágenes</button>
+
+    <h2>Pregunta 5:</h2>
+    <p>¿Qué es un compilador?</p>
+    <button class="button" type="button" name="pregunta5" value="a">Un programa que traduce el código fuente a un lenguaje de bajo nivel</button>
+    <button class="button" type="button" name="pregunta5" value="b"> Un programa que crea códigos de programación</button>
+    <button class="button" type="button" name="pregunta5" value="c">Un programa de diseño gráfico</button>
+    <button class="button" type="button" name="pregunta5" value="d">Un dispositivo de entrada</button>
+
+    <h2>Pregunta 6:</h2>
+    <p>¿Qué es un sistema operativo?</p>
+    <button class="button" type="button" name="pregunta6" value="a">El software que gestiona los recursos y servicios de una computadora</button>
+    <button class="button" type="button" name="pregunta6" value="b">Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta6" value="c"> Un dispositivo de entrada</button>
+    <button class="button" type="button" name="pregunta6" value="d">Una red de computadoras</button>
+
+     <h2>Pregunta 7:</h2>
+    <p>¿Qué es una base de datos?</p>
+    <button class="button" type="button" name="pregunta7" value="a"> Una colección de datos organizados y relacionados entre sí</button>
+    <button class="button" type="button" name="pregunta7" value="b">Un programa para escribir documentos</button>
+    <button class="button" type="button" name="pregunta7" value="c">Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta7" value="d">Un conjunto de códigos de programación</button>
+
+    <h2>Pregunta 8:</h2>
+    <p>¿Qué es un sistema de gestión de bases de datos?</p>
+    <button class="button" type="button" name="pregunta8" value="a">Un software para administrar y manipular datos en una base de datos</button>
+    <button class="button" type="button" name="pregunta8" value="b">Un programa de diseño gráfico</button>
+    <button class="button" type="button" name="pregunta8" value="c"> Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta8" value="d">Un dispositivo de entrada</button>
+
+    <h2>Pregunta 9:</h2>
+    <p>¿Qué es un servidor?</p>
+    <button class="button" type="button" name="pregunta9" value="a">Un programa que proporciona servicios o recursos a otras computadoras o programas</button>
+    <button class="button" type="button" name="pregunta9" value="b">Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta9" value="c">Un conjunto de códigos de programación</button>
+    <button class="button" type="button" name="pregunta9" value="d"> Un dispositivo de entrada</button>
+
+    <h2>Pregunta 10:</h2>
+    <p>¿Qué es una red de computadoras?</p>
+    <button class="button" type="button" name="pregunta6" value="a">Un conjunto de computadoras interconectadas para compartir recursos y servicios</button>
+    <button class="button" type="button" name="pregunta6" value="b">Un lenguaje de programación</button>
+    <button class="button" type="button" name="pregunta6" value="c"> Un dispositivo de entrada</button>
+    <button class="button" type="button" name="pregunta6" value="d"> Una base de datos</button>
+
+  
+</form>
+
+	
 </body>
 </html>
