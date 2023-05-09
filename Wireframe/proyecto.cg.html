@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>proyecto.cg</title>
+</head>
+<body>
+	<a href="proyecto2.html"><button>volver</button></a>
+	<br>
+    <h1>Has elegido Cultura General!!</h1>
+    <div class="container">
+      <div class="pregunta-container">
+        <h1 class="titulo">Cuestionario de Cultura General</h1>
+        <form>
+          <label for="nombre">Ingresa tu nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <button type="button" id="iniciar" onclick="empezarCuestionario()">Iniciar</button>
+        </form>
+      </div>
+      <div class="pregunta-container hidden" id="pregunta-container">
+        <h2 id="numero-pregunta" class="subtitulo"></h2>
+        <h3 id="pregunta" class="pregunta"></h3>
+        <div class="opciones">
+          <button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
+          <button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
+          <button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
+          <button type="button" class="opcion" onclick="verificarRespuesta(this)"></button>
+        </div>
+      </div>
+      <div class="resultado-container hidden" id="resultado-container">
+        <h2 class="subtitulo" id="resultado"></h2>
+        <button type="button" id="reiniciar" onclick="reiniciarCuestionario()">Reiniciar</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
