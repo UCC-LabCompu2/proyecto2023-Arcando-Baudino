@@ -26,6 +26,9 @@ Estructura de Proyecto Lab de Compu II - 2023
 - Google Drive.
 - Git Pages.
 
+## Link GitHub Pages: 
+- Siguiendo paso a paso el tutorial en el aula virtual no pudimos hacerlo, nos marca bloqueada la opcion para construirlo, consultarlo con la profe para conseguir una solucion.
+
 ## Requisitos del Primer Parcial
 
 ### Sobre el Repositorio
