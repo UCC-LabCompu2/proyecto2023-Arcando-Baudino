@@ -4,7 +4,13 @@
     <title>proyecto.cg</title>
     <link rel="stylesheet"  type="text/css"   href="estilo.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="proyectocg.js"></script>
+    <meta charset="UTF-8">
+
 </head>
+<script>
+
+</script>
 <body class="fondo-preguntas">
     <a href="proyecto2.html"><button class="volver-1">←</button></a>
     <br>
@@ -20,10 +26,11 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta1" value="a">A) Madrid</button> <br>
-    <button class="button" type="button" name="pregunta1" value="b">B) París</button> <br>
-    <button class="button" type="button" name="pregunta1" value="c">C) Roma</button> <br>
-    <button class="button" type="button" name="pregunta1" value="d">D) Berlín</button> <br>
+      <button class="button" type="button" name="pregunta1" value="a" onclick="registrarRespuesta('pregunta1', 'a')">A) Madrid</button> <br>
+      <button class="button" type="button" name="pregunta1" value="b" onclick="registrarRespuesta('pregunta1', 'b')">B) París</button> <br>
+      <button class="button" type="button" name="pregunta1" value="c" onclick="registrarRespuesta('pregunta1', 'c')">C) Roma</button> <br>
+      <button class="button" type="button" name="pregunta1" value="d" onclick="registrarRespuesta('pregunta1', 'd')">D) Berlín</button> <br>
+      <br>
   <br>
     <h2>Pregunta 2:</h2>
      <br>
@@ -31,10 +38,10 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta2" value="a">A) Gabriel García Márquez</button> <br>
-    <button class="button" type="button" name="pregunta2" value="b">B) Miguel de Cervantes</button>  <br>
-    <button class="button" type="button" name="pregunta2" value="c">C) Pablo Neruda</button>  <br>
-    <button class="button" type="button" name="pregunta2" value="d">D) Octavio Paz</button>  <br>
+      <button class="button" type="button" name="pregunta2" value="a" onclick="registrarRespuesta('pregunta2', 'a')">A) Gabriel García Márquez</button> <br>
+      <button class="button" type="button" name="pregunta2" value="b" onclick="registrarRespuesta('pregunta2', 'b')">B) Miguel de Cervantes</button>  <br>
+      <button class="button" type="button" name="pregunta2" value="c" onclick="registrarRespuesta('pregunta2', 'c')">C) Pablo Neruda</button>  <br>
+      <button class="button" type="button" name="pregunta2" value="d" onclick="registrarRespuesta('pregunta2', 'd')">D) Octavio Paz</button>  <br>
   <br>
     <h2>Pregunta 3:</h2>
      <br>
@@ -42,10 +49,10 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta3" value="a">A) Támesis</button> <br>
-    <button class="button" type="button" name="pregunta3" value="b">B) Sena</button> <br>
-    <button class="button" type="button" name="pregunta3" value="c">C) Danubio</button> <br>
-    <button class="button" type="button" name="pregunta3" value="d">D) Nilo</button> <br>
+      <button class="button" type="button" name="pregunta3" value="a" onclick="registrarRespuesta('pregunta3', 'a')">A) Támesis</button> <br>
+      <button class="button" type="button" name="pregunta3" value="b" onclick="registrarRespuesta('pregunta3', 'b')">B) Sena</button> <br>
+      <button class="button" type="button" name="pregunta3" value="c" onclick="registrarRespuesta('pregunta3', 'c')">C) Danubio</button> <br>
+      <button class="button" type="button" name="pregunta3" value="d" onclick="registrarRespuesta('pregunta3', 'd')">D) Nilo</button> <br>
   <br>
     <h2>Pregunta 4:</h2>
      <br>
@@ -53,10 +60,10 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta4" value="a">A) Estados Unidos</button> <br>
-    <button class="button" type="button" name="pregunta4" value="b">B) Rusia</button> <br>
-    <button class="button" type="button" name="pregunta4" value="c">C) China</button> <br>
-    <button class="button" type="button" name="pregunta4" value="d">D) India</button> <br>
+      <button class="button" type="button" name="pregunta4" value="a" onclick="registrarRespuesta('pregunta4', 'a')">A) Estados Unidos</button> <br>
+      <button class="button" type="button" name="pregunta4" value="b" onclick="registrarRespuesta('pregunta4', 'b')">B) Rusia</button> <br>
+      <button class="button" type="button" name="pregunta4" value="c" onclick="registrarRespuesta('pregunta4', 'c')">C) China</button> <br>
+      <button class="button" type="button" name="pregunta4" value="d" onclick="registrarRespuesta('pregunta4', 'd')">D) India</button> <br>
   <br>
     <h2>Pregunta 5:</h2>
      <br>
@@ -64,10 +71,10 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta5" value="a">A) Venus</button> <br>
-    <button class="button" type="button" name="pregunta5" value="b">B) Jupiter</button> <br>
-    <button class="button" type="button" name="pregunta5" value="c">C) Tierra</button> <br>
-    <button class="button" type="button" name="pregunta5" value="d">D) Mercurio</button> <br>
+      <button class="button" type="button" name="pregunta5" value="a" onclick="registrarRespuesta('pregunta5', 'a')">A) Venus</button> <br>
+      <button class="button" type="button" name="pregunta5" value="b" onclick="registrarRespuesta('pregunta5', 'b')">B) Jupiter</button> <br>
+      <button class="button" type="button" name="pregunta5" value="c" onclick="registrarRespuesta('pregunta5', 'c')">C) Tierra</button> <br>
+      <button class="button" type="button" name="pregunta5" value="d" onclick="registrarRespuesta('pregunta5', 'd')">D) Mercurio</button> <br>
   <br>
     <h2>Pregunta 6:</h2>
      <br>
@@ -75,10 +82,10 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta6" value="a">A) Homero</button> <br>
-    <button class="button" type="button" name="pregunta6" value="b">B) Virgilio</button> <br>
-    <button class="button" type="button" name="pregunta6" value="c">C) Ovidio</button> <br>
-    <button class="button" type="button" name="pregunta6" value="d">D) Sofocles</button> <br>
+      <button class="button" type="button" name="pregunta6" value="a" onclick="registrarRespuesta('pregunta6', 'a')">A) Homero</button> <br>
+      <button class="button" type="button" name="pregunta6" value="b" onclick="registrarRespuesta('pregunta6', 'b')">B) Virgilio</button> <br>
+      <button class="button" type="button" name="pregunta6" value="c" onclick="registrarRespuesta('pregunta6', 'c')">C) Ovidio</button> <br>
+      <button class="button" type="button" name="pregunta6" value="d" onclick="registrarRespuesta('pregunta6', 'd')">D) Sofocles</button> <br>
   <br>
      <h2>Pregunta 7:</h2>
       <br>
@@ -86,20 +93,20 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta7" value="a">A) Piano</button> <br>
-    <button class="button" type="button" name="pregunta7" value="b">B) Guitarra</button> <br>
-    <button class="button" type="button" name="pregunta7" value="c">C) Violin</button> <br>
-    <button class="button" type="button" name="pregunta7" value="d">D) Organo</button> <br>
+      <button class="button" type="button" name="pregunta7" value="a" onclick="registrarRespuesta('pregunta7', 'a')">A) Piano</button> <br>
+      <button class="button" type="button" name="pregunta7" value="b" onclick="registrarRespuesta('pregunta7', 'b')">B) Guitarra</button> <br>
+      <button class="button" type="button" name="pregunta7" value="c" onclick="registrarRespuesta('pregunta7', 'c')">C) Violin</button> <br>
+      <button class="button" type="button" name="pregunta7" value="d" onclick="registrarRespuesta('pregunta7', 'd')">D) Organo</button> <br>
   <br>
   <h2>Pregunta 8:</h2> <br>
     <button class="boton-preguntas"><p>¿En qué año terminó la Segunda Guerra Mundial?</p></button>
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta8" value="a">A) 1945</button> <br>
-    <button class="button" type="button" name="pregunta8" value="b">B) 1950</button> <br>
-    <button class="button" type="button" name="pregunta8" value="c">C) 1939</button> <br>
-    <button class="button" type="button" name="pregunta8" value="d">D) 1941</button> <br>
+      <button class="button" type="button" name="pregunta8" value="a" onclick="registrarRespuesta('pregunta8', 'a')">A) 1942</button> <br>
+      <button class="button" type="button" name="pregunta8" value="b" onclick="registrarRespuesta('pregunta8', 'b')">B) 1944</button> <br>
+      <button class="button" type="button" name="pregunta8" value="c" onclick="registrarRespuesta('pregunta8', 'c')">C) 1945</button> <br>
+      <button class="button" type="button" name="pregunta8" value="d" onclick="registrarRespuesta('pregunta8', 'd')">D) 1946</button> <br
   <br>
     <h2>Pregunta 9:</h2>
      <br>
@@ -107,23 +114,26 @@
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta9" value="a">A) Pablo Neruda</button> <br>
-    <button class="button" type="button" name="pregunta9" value="b">B) Gabriel Garcia Marquez</button> <br>
-    <button class="button" type="button" name="pregunta9" value="c">C) Julio Cortazar</button> <br>
-    <button class="button" type="button" name="pregunta9" value="d">D) Mario Vargas Llosa</button> <br>
+      <button class="button" type="button" name="pregunta9" value="a" onclick="registrarRespuesta('pregunta9', 'a')">A) Pablo Neruda</button> <br>
+      <button class="button" type="button" name="pregunta9" value="b" onclick="registrarRespuesta('pregunta9', 'b')">B) Gabriel Garcia Marquez</button> <br>
+      <button class="button" type="button" name="pregunta9" value="c" onclick="registrarRespuesta('pregunta9', 'c')">C) Julio Cortazar</button> <br>
+      <button class="button" type="button" name="pregunta9" value="d" onclick="registrarRespuesta('pregunta9', 'd')">D) Mario Vargas Llosa</button> <br>
   <br>
     <h2>Pregunta 10:</h2> <br>
     <button class="boton-preguntas"><p>¿Quién pintó la Mona Lisa?</p></button>
      <br>
       <br>
        <br>
-    <button class="button" type="button" name="pregunta6" value="a">A) Vincent Van Gogh</button> <br>
-    <button class="button" type="button" name="pregunta6" value="b">B) Michelangelo</button> <br>
-    <button class="button" type="button" name="pregunta6" value="c">C) Leonardo Da Vinci</button> <br>
-    <button class="button" type="button" name="pregunta6" value="d">D) Pablo Picasso</button> <br>
+      <button class="button" type="button" name="pregunta10" value="a" onclick="registrarRespuesta('pregunta10', 'a')">A) Vincent Van Gogh</button> <br>
+      <button class="button" type="button" name="pregunta10" value="b" onclick="registrarRespuesta('pregunta10', 'b')">B) Michelangelo</button> <br>
+      <button class="button" type="button" name="pregunta10" value="c" onclick="registrarRespuesta('pregunta10', 'c')">C) Leonardo Da Vinci</button> <br>
+      <button class="button" type="button" name="pregunta10" value="d" onclick="registrarRespuesta('pregunta10', 'd')">D) Pablo Picasso</button> <br>
+      <br>
+      <br>
     <br>
     <br>
     <br>
+      <button type="button" onclick="mostrarResultado()">Mostrar resultado</button>
 </div>
 <footer> 
     <br>

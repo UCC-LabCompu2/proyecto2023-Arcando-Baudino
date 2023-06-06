@@ -1,34 +1,22 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="es"></html>
-<head>
-<title>proyecto.1</title>
-<meta charset="utf-8">
-<link rel="icon" type="image/jpg" href=>
-
-</head>
-<head>
-=======
 .titulo-1{
   color : lightcoral;
   font-size: 6em;
   font-family: 'lobster' , cursive;
- text-align: center;
- text-shadow: 2px 2px 7px #000, 2px 2px 7px #000, 2px 2px 7px #000,  2px 2px 7px #000, 2px 2px 7px #000, 2px 2px 7px #000;
- font-family: 'Lobster', cursive;
+  text-align: center;
+  text-shadow: 2px 2px 7px #000, 2px 2px 7px #000, 2px 2px 7px #000,  2px 2px 7px #000, 2px 2px 7px #000, 2px 2px 7px #000;
+  font-family: 'Lobster', cursive;
 }
->>>>>>> 6835ae8fca59850d5ac027159e961bcd46970632
 
 
 .nombre-1{
-   
+
   padding-left:450px;
- 
+
 }
 
 .username{
   display: inline-block;
-   padding-bottom:20px ;
+  padding-bottom:20px ;
   padding-left:450px;
   padding-right:20px;
   padding-top:25px;
@@ -37,7 +25,7 @@
 
 
 .boton-jugar{
-   padding-bottom:20px ;
+  padding-bottom:20px ;
   padding-left:500px;
   padding-right:20px;
   padding-top:20px;
@@ -52,7 +40,7 @@
 }
 
 .derechos-autor{
-   padding-bottom:20px ;
+  padding-bottom:20px ;
   padding-left:380px;
   padding-right:20px;
   padding-top:20px;
@@ -61,7 +49,7 @@
 }
 
 .preguntas-1{
-   text-align: center;
+  text-align: center;
 }
 
 .pagina-2{
@@ -90,7 +78,7 @@
 }
 
 .bandera-1:hover{
-background-color: #333;
+  background-color: #333;
   color: #fff;
 
 }
@@ -106,13 +94,13 @@ background-color: #333;
 }
 
 .tematica-1{
-     color : lightgrey;
-     font-family: cursive;
-     text-shadow: 2px 2px 7px #000,2px 2px 7px #000,2px 2px 7px #000,2px 2px 7px #000 ;
+  color : lightgrey;
+  font-family: cursive;
+  text-shadow: 2px 2px 7px #000,2px 2px 7px #000,2px 2px 7px #000,2px 2px 7px #000 ;
 }
 
 .fondo-preguntas{
-   background-image: url(https://e1.pxfuel.com/desktop-wallpaper/567/358/desktop-wallpaper-general-knowledge-quiz-general-knowledge.jpg) ;
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/567/358/desktop-wallpaper-general-knowledge-quiz-general-knowledge.jpg) ;
 }
 
 .prop-boton-jugar{

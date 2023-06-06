@@ -4,6 +4,9 @@
 	<title>proyecto.ing</title>
     <link rel="stylesheet"  type="text/css"   href="estilo.css">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="proyecto.dep.js"></script>
+
+    <meta charset="UTF-8">
 </head>
 <body class="fondo-preguntas">
     <a href="proyecto2.html"><button class="volver-1">←</button></a>
@@ -20,10 +23,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta1" value="a">A) Futbol</button>   <br>
-    <button class="button" type="button" name="pregunta1" value="b">B) Baloncesto</button>   <br>
-    <button class="button" type="button" name="pregunta1" value="c">C) Voleibol</button>   <br>
-    <button class="button" type="button" name="pregunta1" value="d">D) Tenis</button>   <br>
+    <button class="button" type="button" name="pregunta1" value="a" onclick="registrarRespuesta('pregunta1', 'a')">A) Futbol</button>   <br>
+    <button class="button" type="button" name="pregunta1" value="b" onclick="registrarRespuesta('pregunta1', 'b')">B) Baloncesto</button>   <br>
+    <button class="button" type="button" name="pregunta1" value="c" onclick="registrarRespuesta('pregunta1', 'c')">C) Voleibol</button>   <br>
+    <button class="button" type="button" name="pregunta1" value="d" onclick="registrarRespuesta('pregunta1', 'd')">D) Tenis</button>   <br>
   <br>
     <h2>Pregunta 2:</h2>
        <br>
@@ -31,10 +34,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta2" value="a">A) Tenis</button>   <br>
-    <button class="button" type="button" name="pregunta2" value="b">B) Baloncesto</button>   <br>
-    <button class="button" type="button" name="pregunta2" value="c">C) Voleibol</button>   <br>
-    <button class="button" type="button" name="pregunta2" value="d">D) Futbol</button>   <br>
+    <button class="button" type="button" name="pregunta2" value="a" onclick="registrarRespuesta('pregunta2', 'a')">A) Tenis</button>   <br>
+    <button class="button" type="button" name="pregunta2" value="b" onclick="registrarRespuesta('pregunta2', 'b')">B) Baloncesto</button>   <br>
+    <button class="button" type="button" name="pregunta2" value="c" onclick="registrarRespuesta('pregunta2', 'c')">C) Voleibol</button>   <br>
+    <button class="button" type="button" name="pregunta2" value="d" onclick="registrarRespuesta('pregunta2', 'd')">D) Futbol</button>   <br>
   <br>
     <h2>Pregunta 3:</h2>
        <br>
@@ -42,10 +45,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta3" value="a">A) 11</button>   <br>
-    <button class="button" type="button" name="pregunta3" value="b">B) 5</button>   <br>
-    <button class="button" type="button" name="pregunta3" value="c">C) 7</button>   <br>
-    <button class="button" type="button" name="pregunta3" value="d">D) 9</button>   <br>
+    <button class="button" type="button" name="pregunta3" value="a"onclick="registrarRespuesta('pregunta3', 'a')">A) 11</button>   <br>
+    <button class="button" type="button" name="pregunta3" value="b" onclick="registrarRespuesta('pregunta3', 'b')">B) 5</button>   <br>
+    <button class="button" type="button" name="pregunta3" value="c" onclick="registrarRespuesta('pregunta3', 'c')">C) 7</button>   <br>
+    <button class="button" type="button" name="pregunta3" value="d" onclick="registrarRespuesta('pregunta3', 'd')">D) 9</button>   <br>
   <br>
     <h2>Pregunta 4:</h2>
        <br>
@@ -53,10 +56,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta4" value="a">A) Juegos Olimpicos</button>   <br>
-    <button class="button" type="button" name="pregunta4" value="b">B) Mundial de Futbol</button>   <br>
-    <button class="button" type="button" name="pregunta4" value="c">C) Tour de francia</button>   <br>
-    <button class="button" type="button" name="pregunta4" value="d">D) SuperBowl</button>   <br>
+    <button class="button" type="button" name="pregunta4" value="a" onclick="registrarRespuesta('pregunta4', 'a')">A) Juegos Olimpicos</button>   <br>
+    <button class="button" type="button" name="pregunta4" value="b" onclick="registrarRespuesta('pregunta4', 'b')">B) Mundial de Futbol</button>   <br>
+    <button class="button" type="button" name="pregunta4" value="c" onclick="registrarRespuesta('pregunta4', 'c')">C) Tour de francia</button>   <br>
+    <button class="button" type="button" name="pregunta4" value="d" onclick="registrarRespuesta('pregunta4', 'd')">D) SuperBowl</button>   <br>
   <br>
     <h2>Pregunta 5:</h2>
        <br>
@@ -64,10 +67,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta5" value="a">A) Michael Jordan</button>   <br>
-    <button class="button" type="button" name="pregunta5" value="b">B) Kobe Bryant</button>   <br>
-    <button class="button" type="button" name="pregunta5" value="c">C) Wilt Chamberlain</button>   <br>
-    <button class="button" type="button" name="pregunta5" value="d">D) Lebron James</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="a" onclick="registrarRespuesta('pregunta5', 'a')">A) Michael Jordan</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="b" onclick="registrarRespuesta('pregunta5', 'b')">B) Kobe Bryant</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="c" onclick="registrarRespuesta('pregunta5', 'c')">C) Wilt Chamberlain</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="d" onclick="registrarRespuesta('pregunta5', 'd')">D) Lebron James</button>   <br>
   <br>
     <h2>Pregunta 6:</h2>
        <br>
@@ -75,10 +78,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta6" value="a">A) Lionel Messi</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="b">B) Cristiano Ronaldo</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="c">C) Pele</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="d">D) Maradona</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="a" onclick="registrarRespuesta('pregunta6', 'a')">A) Lionel Messi</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="b" onclick="registrarRespuesta('pregunta6', 'b')">B) Cristiano Ronaldo</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="c" onclick="registrarRespuesta('pregunta6', 'c')">C) Pele</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="d" onclick="registrarRespuesta('pregunta6', 'd')">D) Maradona</button>   <br>
   <br>
      <h2>Pregunta 7:</h2>
         <br>
@@ -86,10 +89,10 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta7" value="a">A) Futbol Americano</button>   <br>
-    <button class="button" type="button" name="pregunta7" value="b">B) Beisbol</button>   <br>
-    <button class="button" type="button" name="pregunta7" value="c">C) Boxeo</button>   <br>
-    <button class="button" type="button" name="pregunta7" value="d">D) Esqui</button>   <br>
+    <button class="button" type="button" name="pregunta7" value="a" onclick="registrarRespuesta('pregunta7', 'a')">A) Futbol Americano</button>   <br>
+    <button class="button" type="button" name="pregunta7" value="b" onclick="registrarRespuesta('pregunta7', 'b')">B) Beisbol</button>   <br>
+    <button class="button" type="button" name="pregunta7" value="c" onclick="registrarRespuesta('pregunta7', 'c')">C) Boxeo</button>   <br>
+    <button class="button" type="button" name="pregunta7" value="d" onclick="registrarRespuesta('pregunta7', 'd')">D) Esqui</button>   <br>
   <br>
     <h2>Pregunta 8:</h2>
        <br>
@@ -97,21 +100,21 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta8" value="a">A) US open</button>   <br>
-    <button class="button" type="button" name="pregunta8" value="b">B) abierto de australia</button>   <br>
-    <button class="button" type="button" name="pregunta8" value="c">C) Wimbledon</button>   <br>
-    <button class="button" type="button" name="pregunta8" value="d">D) Roland Garros</button>   <br>
+    <button class="button" type="button" name="pregunta8" value="a" onclick="registrarRespuesta('pregunta8', 'a')">A) US Open</button>   <br>
+    <button class="button" type="button" name="pregunta8" value="b" onclick="registrarRespuesta('pregunta8', 'b')">B) Abierto de Australia</button>   <br>
+    <button class="button" type="button" name="pregunta8" value="c" onclick="registrarRespuesta('pregunta8', 'c')">C) Wimbledon</button>   <br>
+    <button class="button" type="button" name="pregunta8" value="d" onclick="registrarRespuesta('pregunta8', 'd')">D) Roland Garros</button>   <br>
   <br>
     <h2>Pregunta 9:</h2>
        <br>
-    <button class="boton-preguntas"><p>¿Quién es el único jugador en la historia de la NFL en haber ganado cinco Super Bowls como quarterback titular?</p></button>
+    <button class="boton-preguntas"><p>¿Quién es el único jugador en la historia de la NFL en haber ganado siete anilos de Super Bowl como quarterback titular?</p></button>
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta9" value="a">A) Tom brady</button>   <br>
-    <button class="button" type="button" name="pregunta9" value="b">B) Joe Montana</button>   <br>
-    <button class="button" type="button" name="pregunta9" value="c">C) Terry Bradshaw</button>   <br>
-    <button class="button" type="button" name="pregunta9" value="d">D) Peyton Manning</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="a" onclick="registrarRespuesta('pregunta9', 'a')">A) Tom brady</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="b" onclick="registrarRespuesta('pregunta9', 'b')">B) Joe Montana</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="c" onclick="registrarRespuesta('pregunta9', 'c')">C) Terry Bradshaw</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="d" onclick="registrarRespuesta('pregunta9', 'd')">D) Peyton Manning</button>   <br>
   <br>
     <h2>Pregunta 10:</h2>
        <br>
@@ -119,13 +122,14 @@
        <br>
           <br>
              <br>
-    <button class="button" type="button" name="pregunta6" value="a">A) Michael Jordan</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="b">B) Lebron James</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="c">C) Hakeem Olajuwon</button>   <br>
-    <button class="button" type="button" name="pregunta6" value="d">D) Kobe Bryant</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="a" onclick="registrarRespuesta('pregunta10', 'a')">A) Michael Jordan</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="b" onclick="registrarRespuesta('pregunta10', 'b')">B) Lebron James</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="c" onclick="registrarRespuesta('pregunta10', 'c')">C) Hakeem Olajuwon</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="d" onclick="registrarRespuesta('pregunta10', 'd')">D) Kobe Bryant</button>   <br>
     <br>
     <br>
     <br>
+    <button type="button" onclick="mostrarResultado()">Mostrar resultado</button>
 </div>
 <footer> 
     <br>
