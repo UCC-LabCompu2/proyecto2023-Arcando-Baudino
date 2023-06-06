@@ -11,7 +11,7 @@ function mostrarResultado() {
     var contadorRespuestas = 0;
 
     // Calcular el número de respuestas correctas
-    if (respuestas['pregunta1'] === 'b') {
+    if (respuestas['pregunta1'] === 'a') {
         contadorRespuestas++;
     }
     if (respuestas['pregunta2'] === 'a') {
@@ -20,25 +20,25 @@ function mostrarResultado() {
     if (respuestas['pregunta3'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta4'] === 'b') {
+    if (respuestas['pregunta4'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta5'] === 'c') {
+    if (respuestas['pregunta5'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta6'] === 'c') {
+    if (respuestas['pregunta6'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta7'] === 'b') {
+    if (respuestas['pregunta7'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta8'] === 'c') {
+    if (respuestas['pregunta8'] === 'a') {
         contadorRespuestas++;
     }
     if (respuestas['pregunta9'] === 'a') {
         contadorRespuestas++;
     }
-    if (respuestas['pregunta10'] === 'c') {
+    if (respuestas['pregunta10'] === 'a') {
         contadorRespuestas++;
     }
 
