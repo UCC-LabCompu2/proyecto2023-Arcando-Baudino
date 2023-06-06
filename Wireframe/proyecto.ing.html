@@ -1,87 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>proyecto.dep</title>
+	<title>Preguntados-Categoria Ingenieria</title>
+    <link rel="stylesheet"  type="text/css"   href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="proyecto.ing.js"></script>
+    <meta charset="UTF-8">
 </head>
-<body>
-<body style ='background-color: #de0994'>
-<a href="proyecto2.html"><button>volver</button></a>
+<body class="fondo-preguntas">
+
+<a href="proyecto2.html"><button class="volver-1">←</button></a>
 <br>
+<div class="preguntas-1">
 <h1>Has elegido Ingenieria!!</h1>
 
-<form>
+<form >
+
     <h2>Pregunta 1:</h2>
-    <p>¿Que es un algoritmo?</p>
-    <button class="button" type="button" name="pregunta1" value="a">Un conjunto de instrucciones ordenadas para resolver un problema</button>
-    <button class="button" type="button" name="pregunta1" value="b"> Una red de computadoras</button>
-    <button class="button" type="button" name="pregunta1" value="c"> Un programa de computadora</button>
-    <button class="button" type="button" name="pregunta1" value="d">Un dispositivo de entrada</button>
-
+    <br>
+    <button class="boton-preguntas"><p>¿Qué es un algoritmo?</p></button>
+    <br>
+      <br>
+        <br>
+    <button class="button" type="button" name="pregunta1" value="a" onclick="registrarRespuesta('pregunta1', 'a')">A)Un conjunto de instrucciones ordenadas para resolver un problema</button>  <br>
+    <button class="button" type="button" name="pregunta1" value="b" onclick="registrarRespuesta('pregunta1', 'b')">B) Una red de computadoras</button>  <br>
+    <button class="button" type="button" name="pregunta1" value="c" onclick="registrarRespuesta('pregunta1', 'c')">C) Un programa de computadora</button>  <br>
+    <button class="button" type="button" name="pregunta1" value="d" onclick="registrarRespuesta('pregunta1', 'd')">D) Un dispositivo de entrada</button>  <br>
+    <br>
     <h2>Pregunta 2:</h2>
-    <p>¿Que es un lenguaje de programacion?</p>
-    <button class="button" type="button" name="pregunta2" value="a">Un conjunto de reglas para escribir códigos de programacion</button>
-    <button class="button" type="button" name="pregunta2" value="b">Un programa de computadora para escribir documentos</button>
-    <button class="button" type="button" name="pregunta2" value="c">Un dispositivo de entrada</button>
-    <button class="button" type="button" name="pregunta2" value="d">Una base de datos</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un lenguaje de programación?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta2" value="a" onclick="registrarRespuesta('pregunta2', 'a')">A) Un conjunto de reglas para escribir códigos de programación</button>  <br>
+    <button class="button" type="button" name="pregunta2" value="b" onclick="registrarRespuesta('pregunta2', 'b')">B) Un programa de computadora para escribir documentos</button>  <br>
+    <button class="button" type="button" name="pregunta2" value="c" onclick="registrarRespuesta('pregunta2', 'c')">C) Un dispositivo de entrada</button>  <br>
+    <button class="button" type="button" name="pregunta2" value="d" onclick="registrarRespuesta('pregunta2', 'd')">D) Una base de datos</button>  <br>
+    <br>
     <h2>Pregunta 3:</h2>
-    <p>¿Cual es el lenguaje de programacion más utilizado en la actualidad?</p>
-    <button class="button" type="button" name="pregunta3" value="a"> Java</button>
-    <button class="button" type="button" name="pregunta3" value="b">c++</button>
-    <button class="button" type="button" name="pregunta3" value="c">Python</button>
-    <button class="button" type="button" name="pregunta3" value="d">JavaScript</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Cuál es el lenguaje de programación más utilizado en la actualidad?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta3" value="a" onclick="registrarRespuesta('pregunta3', 'a')">A) Java</button>  <br>
+    <button class="button" type="button" name="pregunta3" value="b" onclick="registrarRespuesta('pregunta3', 'b')">B) c++</button>  <br>
+    <button class="button" type="button" name="pregunta3" value="c" onclick="registrarRespuesta('pregunta3', 'c')">C) Python</button>  <br>
+    <button class="button" type="button" name="pregunta3" value="d" onclick="registrarRespuesta('pregunta3', 'd')">D) JavaScript</button>  <br>
+    <br>
     <h2>Pregunta 4:</h2>
-    <p>¿Que es un IDE?</p>
-    <button class="button" type="button" name="pregunta4" value="a">Un entorno de desarrollo integrado</button>
-    <button class="button" type="button" name="pregunta4" value="b">Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta4" value="c">Un conjunto de códigos de programacion</button>
-    <button class="button" type="button" name="pregunta4" value="d"> Un programa de computadora para editar imágenes</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un IDE?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta4" value="a" onclick="registrarRespuesta('pregunta4', 'a')">A) Un entorno de desarrollo integrado</button>  <br>
+    <button class="button" type="button" name="pregunta4" value="b" onclick="registrarRespuesta('pregunta4', 'b')">B) Un lenguaje de programación</button>  <br>
+    <button class="button" type="button" name="pregunta4" value="c" onclick="registrarRespuesta('pregunta4', 'c')">C) Un conjunto de códigos de programación</button>  <br>
+    <button class="button" type="button" name="pregunta4" value="d" onclick="registrarRespuesta('pregunta4', 'd')">D) Un programa de computadora para editar imágenes</button>  <br>
+  <br>
     <h2>Pregunta 5:</h2>
-    <p>¿Que es un compilador?</p>
-    <button class="button" type="button" name="pregunta5" value="a">Un programa que traduce el codigo fuente a un lenguaje de bajo nivel</button>
-    <button class="button" type="button" name="pregunta5" value="b"> Un programa que crea códigos de programacion</button>
-    <button class="button" type="button" name="pregunta5" value="c">Un programa de diseño grafico</button>
-    <button class="button" type="button" name="pregunta5" value="d">Un dispositivo de entrada</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un compilador?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta5" value="a" onclick="registrarRespuesta('pregunta5', 'a')">A) Un programa que traduce el código fuente a un lenguaje de bajo nivel</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="b" onclick="registrarRespuesta('pregunta5', 'b')">B) Un programa que crea códigos de programación</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="c" onclick="registrarRespuesta('pregunta5', 'c')">C) Un programa de diseño gráfico</button>   <br>
+    <button class="button" type="button" name="pregunta5" value="d" onclick="registrarRespuesta('pregunta5', 'd')">D) Un dispositivo de entrada</button>   <br>
+  <br>
     <h2>Pregunta 6:</h2>
-    <p>¿Que es un sistema operativo?</p>
-    <button class="button" type="button" name="pregunta6" value="a">El software que gestiona los recursos y servicios de una computadora</button>
-    <button class="button" type="button" name="pregunta6" value="b">Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta6" value="c"> Un dispositivo de entrada</button>
-    <button class="button" type="button" name="pregunta6" value="d">Una red de computadoras</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un sistema operativo?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta6" value="a" onclick="registrarRespuesta('pregunta6', 'a')">A) El software que gestiona los recursos y servicios de una computadora</button>  <br>
+    <button class="button" type="button" name="pregunta6" value="b" onclick="registrarRespuesta('pregunta6', 'b')">B) Un lenguaje de programación</button>  <br>
+    <button class="button" type="button" name="pregunta6" value="c" onclick="registrarRespuesta('pregunta6', 'c')">C) Un dispositivo de entrada</button>  <br>
+    <button class="button" type="button" name="pregunta6" value="d" onclick="registrarRespuesta('pregunta6', 'd')">D) Una red de computadoras</button>  <br>
+  <br>
      <h2>Pregunta 7:</h2>
-    <p>¿Que es una base de datos?</p>
-    <button class="button" type="button" name="pregunta7" value="a"> Una colección de datos organizados y relacionados entre sí</button>
-    <button class="button" type="button" name="pregunta7" value="b">Un programa para escribir documentos</button>
-    <button class="button" type="button" name="pregunta7" value="c">Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta7" value="d">Un conjunto de códigos de programación</button>
-
+       <br>
+    <button class="boton-preguntas"><p>¿Qué es una base de datos?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta7" value="a" onclick="registrarRespuesta('pregunta7', 'a')">A) Una colección de datos organizados y relacionados entre sí</button>  <br>
+    <button class="button" type="button" name="pregunta7" value="b" onclick="registrarRespuesta('pregunta7', 'b')">B) Un programa para escribir documentos</button>  <br>
+    <button class="button" type="button" name="pregunta7" value="c" onclick="registrarRespuesta('pregunta7', 'c')">C) Un lenguaje de programación</button>  <br>
+    <button class="button" type="button" name="pregunta7" value="d" onclick="registrarRespuesta('pregunta7', 'd')">D) Un conjunto de códigos de programación</button>  <br>
+  <br>
     <h2>Pregunta 8:</h2>
-    <p>¿Que es un sistema de gestión de bases de datos?</p>
-    <button class="button" type="button" name="pregunta8" value="a">Un software para administrar y manipular datos en una base de datos</button>
-    <button class="button" type="button" name="pregunta8" value="b">Un programa de diseño gráfico</button>
-    <button class="button" type="button" name="pregunta8" value="c"> Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta8" value="d">Un dispositivo de entrada</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un sistema de gestión de bases de datos?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta8" value="a" onclick="registrarRespuesta('pregunta8', 'a')">A) Un software para administrar y manipular datos en una base de datos</button>   <br>
+    <button class="button" type="button" name="pregunta8" value="b" onclick="registrarRespuesta('pregunta8', 'b')">B) Un programa de diseño gráfico</button>  <br>
+    <button class="button" type="button" name="pregunta8" value="c" onclick="registrarRespuesta('pregunta8', 'c')">C) Un lenguaje de programación</button>  <br>
+    <button class="button" type="button" name="pregunta8" value="d" onclick="registrarRespuesta('pregunta8', 'd')">D) Un dispositivo de entrada</button>  <br>
+  <br>
     <h2>Pregunta 9:</h2>
-    <p>¿Que es un servidor?</p>
-    <button class="button" type="button" name="pregunta9" value="a">Un programa que proporciona servicios o recursos a otras computadoras o programas</button>
-    <button class="button" type="button" name="pregunta9" value="b">Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta9" value="c">Un conjunto de códigos de programacion</button>
-    <button class="button" type="button" name="pregunta9" value="d"> Un dispositivo de entrada</button>
-
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es un servidor?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta9" value="a" onclick="registrarRespuesta('pregunta9', 'a')">A) Un programa que proporciona servicios o recursos a otras computadoras o programas</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="b" onclick="registrarRespuesta('pregunta9', 'b')">B) Un lenguaje de programación</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="c" onclick="registrarRespuesta('pregunta9', 'c')">C) Un conjunto de códigos de programación</button>   <br>
+    <button class="button" type="button" name="pregunta9" value="d" onclick="registrarRespuesta('pregunta9', 'd')">D) Un dispositivo de entrada</button>   <br>
+  <br>
     <h2>Pregunta 10:</h2>
-    <p>¿Que es una red de computadoras?</p>
-    <button class="button" type="button" name="pregunta6" value="a">Un conjunto de computadoras interconectadas para compartir recursos y servicios</button>
-    <button class="button" type="button" name="pregunta6" value="b">Un lenguaje de programacion</button>
-    <button class="button" type="button" name="pregunta6" value="c"> Un dispositivo de entrada</button>
-    <button class="button" type="button" name="pregunta6" value="d"> Una base de datos</button>
-
-  
+      <br>
+    <button class="boton-preguntas"><p>¿Qué es una red de computadoras?</p></button>
+      <br>
+        <br>
+          <br>
+    <button class="button" type="button" name="pregunta6" value="a" onclick="registrarRespuesta('pregunta10', 'a')">A) Un conjunto de computadoras interconectadas para compartir recursos y servicios</button>   <br>
+    <button class="button" type="button" name="pregunta6" value="b" onclick="registrarRespuesta('pregunta10', 'b')">B) Un lenguaje de programación</button>  <br>
+    <button class="button" type="button" name="pregunta6" value="c" onclick="registrarRespuesta('pregunta10', 'c')">C) Un dispositivo de entrada</button>  <br>
+    <button class="button" type="button" name="pregunta6" value="d" onclick="registrarRespuesta('pregunta10', 'd')">D) Una base de datos</button>
+   <br>
+    <br>
+    <br>
+    <button type="button" onclick="mostrarResultado()">Mostrar resultado</button>
 </form>
+</div>
+<footer> 
+    <br>
+    <br>
+    <br>
+    <a href="proyecto2.html"><button>volver</button></a></footer>
+
+
+
+
 
 	
 </body>

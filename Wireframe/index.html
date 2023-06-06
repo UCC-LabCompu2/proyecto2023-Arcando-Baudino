@@ -1,44 +1,89 @@
 <!DOCTYPE html>
-<html lang="es"></html>
+<html>
 <head>
-    <title>proyecto.1</title>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/jpg" href=>
 
+    <title>Preguntados</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta content="Felipe Baudino - Juan Arcando" name = "autor">
+    <meta content="Proyecto Laboratorio de Computacion II-PREGUNTADOS!" name ="descripcion">
+    <meta charset="UTF-8">
+    <link rel="icon"  href="unnamed.ico">
+    <link rel="stylesheet"  type="text/css"   href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
-
-<body>
-
-<body style ='background-color: #de0994'>
-<header>
-<h1>  PREGUNTADOS PLUS+  </h1>
-</header>
-<img src=https://preguntados.com/resources/images/cards/games/Trivia%20crack@2x.png>
+<body class="fondo-1">
+    
+</body>
+<h1 class="titulo-1">PREGUNTADOS PLUS+</h1>
+<script src="proyectocg.js"></script>
 <br>
-<h2>Ingresa tu nombre de usuario:</h2>
+<h2 class="nombre-1">Ingresa tu nombre de usuario:</h2>
 <form>
-    <label for="username">Usuario:</label>
-    <input type="text" id="username" name="username">
+    <style>
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
 
-    <input type="submit" value="Ingresar">
+    <div class="username">
+        <input type="text" id="username" name="username" placeholder="Nombre de Usuario" required>
+        <div class="error-message" id="username-error"></div>
+    </div>
+    <input class="ingresar" type="submit" value="Ingresar">
+
+    <script>
+        document.querySelector('.ingresar').addEventListener('click', function(event) {
+            var usernameInput = document.getElementById('username');
+            var usernameError = document.getElementById('username-error');
+
+            if (usernameInput.value.trim() === '') {
+                usernameError.textContent = 'Por favor ingresa un nombre de usuario.';
+                event.preventDefault(); // Pide que se ingrese el nombre de usario
+            } else {
+                usernameError.textContent = ''; // Borra el mensaje de error si se ingreso un nombre
+            }
+        });
+    </script>
 </form>
 <br>
-<a href="proyecto2.html"><button >JUGAR</button></a>
 
+<div class="boton-jugar"><a href="proyecto2.html" ><button class="prop-boton-jugar">JUGAR</button></a></div>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="tutorial-1">
 <h3>No sabes como jugar? No te preocupes!</h3>
+<br>
+<br>
 <h4>Mira nuestro tutorial para aprender todo lo que necesitas saber!</h4>
 <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wVDCKuYSFNvgpFdhf3-9lhPChMelajvyPA&usqp=CAU>
 <h4>Estas listo? Empezemos a divertirnos!</h4>
-    
-    <footer>
+</div>
+<div></div>
+<footer class="derechos-autor">
 	
-	<p>Autores:
-        <br>
-        -Felipe Baudino
-        <br>
-        -Juan Arcando </p>
+	<p>Autores:  Felipe Baudino  Juan Arcando </p>
 
 </footer>
 </html>
-
