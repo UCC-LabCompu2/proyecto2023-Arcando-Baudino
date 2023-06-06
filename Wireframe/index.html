@@ -13,6 +13,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        canvas {
+            width: 1000px;
+            height: 150px;
+            border: 10px black;
+        }
+    </style>
+
 </head>
 <body class="fondo-1">
     
@@ -54,24 +62,6 @@
 
 <div class="boton-jugar"><a href="proyecto2.html" ><button class="prop-boton-jugar">JUGAR</button></a></div>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <div class="tutorial-1">
 <h3>No sabes como jugar? No te preocupes!</h3>
 <br>
@@ -79,6 +69,24 @@
 <h4>Mira nuestro tutorial para aprender todo lo que necesitas saber!</h4>
 <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wVDCKuYSFNvgpFdhf3-9lhPChMelajvyPA&usqp=CAU>
 <h4>Estas listo? Empezemos a divertirnos!</h4>
+
+    <canvas id="miCanvas"></canvas>
+
+    <script>
+
+        var canvas = document.getElementById("miCanvas");
+
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "seagreen";
+        ctx.fillRect(0, 50, 200, 200);
+
+        ctx.fillStyle = "white";
+        ctx.font = "bold 30px Arial";
+        ctx.textAlign = "center";
+        ctx.fillText("Preguntados!", 100, 100);
+
+    </script>
 </div>
 <div></div>
 <footer class="derechos-autor">
