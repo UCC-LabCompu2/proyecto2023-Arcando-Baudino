@@ -2,7 +2,9 @@
 <html>
 <head>
 
-    <title>proyecto.1</title>
+    <title>Preguntados</title>
+    <meta content="Felipe Baudino - Juan Arcando" name = "autor">
+    <meta content="Proyecto Laboratorio de Computacion II-PREGUNTADOS!" name ="descripcion">
     <meta charset="UTF-8">
     <link rel="icon"  href="unnamed.ico">
     <link rel="stylesheet"  type="text/css"   href="estilo.css">
@@ -19,9 +21,33 @@
 <br>
 <h2 class="nombre-1">Ingresa tu nombre de usuario:</h2>
 <form>
-    
-    <div class="username"><input type="text" id="username" name="username" placeholder="nombre de usuario" required=""></div>
+    <style>
+        .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+
+    <div class="username">
+        <input type="text" id="username" name="username" placeholder="Nombre de Usuario" required>
+        <div class="error-message" id="username-error"></div>
+    </div>
     <input class="ingresar" type="submit" value="Ingresar">
+
+    <script>
+        document.querySelector('.ingresar').addEventListener('click', function(event) {
+            var usernameInput = document.getElementById('username');
+            var usernameError = document.getElementById('username-error');
+
+            if (usernameInput.value.trim() === '') {
+                usernameError.textContent = 'Por favor ingresa un nombre de usuario.';
+                event.preventDefault(); // Pide que se ingrese el nombre de usario
+            } else {
+                usernameError.textContent = ''; // Borra el mensaje de error si se ingreso un nombre
+            }
+        });
+    </script>
 </form>
 <br>
 
@@ -56,7 +82,7 @@
 <div></div>
 <footer class="derechos-autor">
 	
-	<p>Autores:  Felipe Baudino  Juan Arcando </p> 
+	<p>Autores:  Felipe Baudino  Juan Arcando </p>
 
 </footer>
 </html>
